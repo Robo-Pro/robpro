@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+nav {
+    background-color: #000051;
+    color: white;
+    font-family: 'Nunito';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-butoni:hover {
+    color: #807f7f;
+}
+
+.butoni {
+  display: inline;
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-butoni {
+    margin-right: 20px;
+}
+
+#robopro {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Russo One';
+}
+
+#nav-home {
+    margin: 5px 5px 5px 15px;
+    border-radius: 13px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 112px;
+    text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000051;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #00002d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper .button{
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    margin: 0 0 5px;
+    overflow: hidden;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    align-items: center;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+    background: #fff;
+  }
+
+  #link1{
+    color: #0055ff;;
+  }
+  #link2{
+    color: #ee5075;;
+  }
+  #link3{
+    color: #ff0000;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    align-items: center;
+  }
+  .wrapper .button .icon i{
+    font-size: 20px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+    align-items: center;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #0055ff;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #ee5075;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #ff0000;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000051;
+    padding-bottom: 100px;
+  }
+  
+  #contact {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5%;
+    font: 300 60px 'Nunito', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Nunito';
+    font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+    max-width: 400px;
+    background-color: #ffffff;
+    color: #000051;
+    letter-spacing: 1px;
+    border: #000051 2px solid;
+  }
+  
+  .send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+
+  input::placeholder {
+    font-weight: bold;
+    color: #000051;
+}
+
+textarea::placeholder {
+  font-weight: bold;
+  color: #000051;
+}
+  
+  .alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+    transform: translate3d(0px, -10px, 0px);
+    text-align: center;
+  }
+
+  #submit{
+    background-color: white;
+  }
+  
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: bold 15px 'Nunito', sans-serif;
+    letter-spacing: 2px;
+    color: #000051;
+  }
+  
+  .alt-send-button:hover {
+    transform: translate3d(0px, -13px, 0px);
+  }
+  
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+    width: 110%;
+    margin-left: 5%;
+  }
+
+
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: white;
+  }
+  
+  .contact-text {
+    font: 300 18px 'Nunito', sans-serif;
+    letter-spacing: 1.9px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .contact-text a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    font-weight: bold;
+  }
+  
+  .contact-text a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #email,#name,#textare{
+    margin-top: 2%;
+  }
+  
+  hr {
+    border-color: #000051
+  }
+  
+  /* Begin Media Queries*/
+  @media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }
+
+
+.links{
+  text-decoration: none;
+}
+
+#zaglavie{
+  margin-bottom: -1%;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: -9%;
+}
+
+#phone{
+  visibility: hidden;
+  display: none;
+}
+
+#pc{
+  visibility: visible;
+}
+.right{
+  margin-right: 1%;
+}   
+
+@media screen and (max-width: 1000px) {
+  #pc{
+      visibility: hidden;
+      display: none;
+      
+  }
+
+  #phone{
+      visibility: visible;
+      display: flex;
+      text-align: center;
+      width: 100%;
+  }
+
+  #myLinks{
+      display: none;
+      width: 100%;
+  }
+  .nav-buton{
+      width: 100%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      display: block;
+      z-index: -1;
+  }
+
+  .dropdown-content1{
+      z-index:0;
+  }
+  .dropdown:hover .dropdown-content{
+      width: 100%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      display: block;
+      background-color: #000051;
+  }
+  .dropdown1:hover .dropdown-content1{
+      width: 100%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      display: block;
+      background-color: #000051;
+  }
+  .dropdown-content a{
+      background-color: #000051;
+      width: 100%;
+      z-index: 1;
+  }
+  
+  .butoni{
+      color: white;
+      background-color: #000051;
+      text-align: center;
+      font-size: 30px;
+      position: absolute;
+      margin-top: -24.9%;
+  }
+
+  #zaglavie{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 49px;
+  }
+
+  #name, #email, #textare {
+    width: 81%;
+    margin-left: 0%;
+  } 
+  #submit{
+    width: 81%;
+    text-align: center;
+  }
+
+  .send-text{ 
+    width: 75%;
+    text-align: center;
+  }
+  .contact-text{
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+  .right{
+    margin-right: 7%;
+  }
+  
+}

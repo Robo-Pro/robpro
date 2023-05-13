@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito';
+    color: #000051;
+}
+
+nav{
+    background-color: #000051;
+    color: white;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-butoni:hover {
+    color: #807f7f;
+}
+
+.butoni {
+    display: inline;
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-butoni {
+    margin-right: 20px;
+}
+
+#robopro {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Russo One';
+}
+
+#nav-home {
+    margin: 5px 5px 5px 15px;
+    border-radius: 13px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 112px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000051;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #00002d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #000051;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {
+    background-color: #00002d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+.carousel{
+    background-color: #000051;
+    padding: 15px 0px 45px 0px;
+    z-index: -1;
+    margin-top: 60px;
+}
+
+#zaglavie{
+    margin: 25px 0px 10px 0px;
+}
+
+#tekstotbor{
+    margin: 15px 0px 20px 0px;
+    text-align: justify;
+    font-weight: 600;
+    font-size:21px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#tekstotbor2{
+    margin: 15px 0px 20px 0px;
+    text-align: justify;
+    font-weight: 600;
+    font-size:21px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#sliderphoto{
+    height: 500px;
+}
+
+.otborinfo{
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+#snimkaotbor{
+    margin-right: 25px;
+    height: 350px;
+}
+
+hr{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 35px;
+    height: 0px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+footer{
+    text-align: center;
+}
+
+#phone{
+    visibility: hidden;
+    display: none;
+}
+
+#pc{
+    visibility: visible;
+}
+
+@media screen and (max-width: 1000px) {
+    #pc{
+        visibility: hidden;
+        display: none;
+        
+    }
+
+    #phone{
+        visibility: visible;
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+
+    #zaglavie{
+        margin-top:20%;
+    }
+    .carousel{
+        width: 100%; 
+    }
+    .carousel-inner #sliderphoto{
+        width: 100%;
+        height: 100%;
+    }
+    .otborinfo{
+        display: block;
+    }
+    #snimkaotbor{
+        width: 100%;
+        margin: 0%;
+        height: 100%;
+    }
+    #myLinks{
+        display: none;
+        width: 100%;
+    }
+    .nav-buton{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: block;
+        z-index: -1;
+    }
+
+    .dropdown-content1{
+        z-index:0;
+    }
+    .dropdown:hover .dropdown-content{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: block;
+        background-color: #000051;
+    }
+    .dropdown1:hover .dropdown-content1{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: block;
+        background-color: #000051;
+    }
+    .dropdown-content a{
+        background-color: #000051;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .butoni{
+        color: white;
+        background-color: #000051;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -24.9%;
+    }
+  }

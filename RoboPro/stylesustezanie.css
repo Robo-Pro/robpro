@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito';
+}
+
+nav {
+    background-color: #000051;
+    color: white;
+    display: flex;
+    display: -webkit-flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-butoni:hover {
+    color: #807f7f;
+}
+
+.butoni {
+    display: inline;
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-butoni {
+    margin-right: 20px;
+}
+
+#robopro {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Russo One';
+}
+
+#nav-home {
+    margin: 5px 5px 5px 15px;
+    border-radius: 13px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 112px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000051;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #00002d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #000051;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {
+    background-color: #00002d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+#zaglavie{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 6%;
+    font-size: 45px;
+    color: #000051;
+}
+
+#podzaglavie{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7px;
+    color: #000051;
+}
+
+footer{
+    text-align: center;
+}
+
+.firstcontainer{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+#textlink{
+    color: #000051;
+    font-weight: 900;
+}
+
+#textlink:hover{
+    color: #00009f;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.textinfo{
+    font-size: 23px;
+    margin-top: 35px;
+    margin-left: 25px;
+    text-align: justify;
+    width: 48%;
+    margin-right: 3%;
+    vertical-align: middle;
+}
+
+.textinfo1{
+    font-size: 23px;
+    margin-top: 35px;
+    margin-left: 25px;
+    text-align: justify;
+    width: 48%;
+    margin-right: 3%;
+    vertical-align: middle;
+    color: #000051;
+}
+
+.secondcontainer{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-weight: 600;
+    background-color: #000051;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;   
+}
+
+.thirdcontainer{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #000051;
+}
+
+.thirdcontainer2022{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #000051;
+    
+}
+
+.textinfo2022{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+#festo{
+    margin-left: 20px;
+}
+
+#kupa{
+    margin: auto;
+}
+
+hr{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 35px;
+    height: 0px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+img{
+    border-radius: 5px;
+}
+
+#phone{
+    visibility: hidden;
+    display: none;
+}
+
+#pc{
+    visibility: visible;
+}
+
+#snimkaotbor2{
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 1000px) {
+    #pc{
+        visibility: hidden;
+        display: none;
+    }
+    #phone{
+        visibility: visible;
+        display: flex;
+        text-align: center; 
+        width: 100%;
+    }
+    
+    #zaglavie{
+        margin-top:20%;
+    }
+
+    .firstcontainer ,.secondcontainer, .thirdcontainer{
+        display: block;
+        width: 100%;
+    }
+    .textinfo{
+        width: 99%;
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: justify;
+        font-size: 19px;
+    }
+    .textinfo1{
+        width: 99%;
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: justify;
+        font-size: 19px;
+    }
+    #snimkaotbor{
+        width: 100%;
+        margin: 0%;
+        height: 100%;
+        margin-top: 2%;
+    }
+    #snimkaotbor2{
+        width: 100%;
+        margin: 0%;
+        height: 100%;
+        margin-top: 2%;
+    }
+    #myLinks{
+        display: none;
+        width: 100%;
+    }
+    .nav-buton{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: block;
+
+    }
+    .butoni{
+        color: white;
+        background-color: #000051;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -27%;
+    }
+
+    .dropdown-content1{
+        z-index:0;
+    }
+    .dropdown:hover .dropdown-content{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: block;
+        background-color: #000051;
+    }
+    .dropdown1:hover .dropdown-content1{
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: block;
+        background-color: #000051;
+    }
+    .dropdown-content a{
+        background-color: #000051;
+        width: 100%;
+        z-index: 1;
+    }
+  }
